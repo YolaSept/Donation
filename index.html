@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>User login</title>
+    <link rel="icon" href="bg_n.png">
+  </head>
+  <body>
+    <header>
+      <h1 class="brigada">Brigada</h1>
+    </header>
+    <div class="container">
+      <h1>User Login</h1>
+      <form action="/login" method="POST">
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" required>
+
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" required>
+
+        <button type="submit">Login</button>
+      </form>
+      <div class="register-button">
+        <form action="/register" method="GET">
+          <button type="submit">Register</button>
+        </form>
+      </div>
+    </div>
+
+
+    <script src="login.js"></script>
+  </body>
+</html>

@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="homepage.css">
+  <title>Home page</title>
+  <link rel="icon" href="bg_n.png">
+</head>
+<body>
+  <header>
+    
+    <h2 class="Brigada">Brigada</h2>
+    <nav class="Navigation">
+      <a href="#" class="active">Home</a>
+      <a href="donation.html">Donation</a>
+      <button class="btnLogin-popup" id="logoutButton">Log Out</button>
+    </nav>
+  </header>
+  <div class="formbox2"></div>
+  <div class="formbox"></div>
+  </div>
+
+  <img src="logo.gif" alt="Description of the image">
+
+  <h1 class="animated-text">Welcome to Brigada!</h1>
+  <h1 class="additional-text">This website system is used to integrate the real time donation into the livestream of the "Tulong Kabrigada" program.
+  </h1>
+
+
+  <script src="homepage.js"></script>
+  <script>
+    document.getElementById("logoutButton").addEventListener("click", function() {
+      window.location.href = "/login";
+    });
+  </script>
+</body>
+</html>
